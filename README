@@ -1,0 +1,28 @@
+Rafael Villalobos
+November 27, 2021
+
+This README is utilized to start a django project after installing the django framework. The following instructions should be issued from a shell:
+
+# Create a python virtual environment to run the scripts found on the same level as the
+# project directory
+python3 -m venv venv
+
+# Acivate the python environment
+source venv/bin/activate 
+
+# Install django if not installed already
+pip install django
+
+# Then we change directories to Hello_prj
+cd Hello_prj 
+
+# Run the command to remove warnings, but this is optional
+python3 manage.py migrate
+
+# Run the server in a terminal
+python3 manage.py runserver
+
+# In a browser, the webpage may be accessed by typing localhost:8000 in the url.
+# To view the JSON Hello World, type localhost:8000/hello in the url
+# To view the optional template view type localhost:8000/helloTemplate in the url
+ 
